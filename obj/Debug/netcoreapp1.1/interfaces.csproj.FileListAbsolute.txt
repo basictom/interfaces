@@ -1,0 +1,8 @@
+/Users/Basic/Workspace/csharp/interfaces/bin/Debug/netcoreapp1.1/interfaces.deps.json
+/Users/Basic/Workspace/csharp/interfaces/bin/Debug/netcoreapp1.1/interfaces.runtimeconfig.json
+/Users/Basic/Workspace/csharp/interfaces/bin/Debug/netcoreapp1.1/interfaces.runtimeconfig.dev.json
+/Users/Basic/Workspace/csharp/interfaces/bin/Debug/netcoreapp1.1/interfaces.dll
+/Users/Basic/Workspace/csharp/interfaces/bin/Debug/netcoreapp1.1/interfaces.pdb
+/Users/Basic/Workspace/csharp/interfaces/obj/Debug/netcoreapp1.1/interfaces.AssemblyInfo.cs
+/Users/Basic/Workspace/csharp/interfaces/obj/Debug/netcoreapp1.1/interfaces.dll
+/Users/Basic/Workspace/csharp/interfaces/obj/Debug/netcoreapp1.1/interfaces.pdb
