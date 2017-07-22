@@ -2,51 +2,28 @@ using System;
 
 namespace interfaces
 {
-    public class JetSki : IVehicle
+    public class JetSki : IWater, IDriveable
     {
-        public int PassengerCapacity { get; set; }
-        public string TransmissionType { get; set; }
-        public double EngineVolume { get; set; }
-        public double MaxWaterSpeed { get; set; }
-        public double MaxLandSpeed 
-        {
-            get => throw new NotImplementedException(); set => throw new NotImplementedException();
-        }
-        public double MaxAirSpeed 
-        {
-            get => throw new NotImplementedException(); set => throw new NotImplementedException();
-        }
-        public int Wheels 
-        { 
-            get => throw new NotImplementedException(); set => throw new NotImplementedException(); 
-        }
-        public int Doors 
-        {
-            get => throw new NotImplementedException(); set => throw new NotImplementedException();
-        }
-        public bool Winged 
-        {
-            get => throw new NotImplementedException(); set => throw new NotImplementedException();
-        }
+        public int PassengerCapacity { get; set; } = 2;
+        public string TransmissionType { get; set; } = "Automatic";
+        public double EngineVolume { get; set; } = 2.3;
+        public double MaxSpeed { get; set; } = 65.9;
+        public int Doors { get; set; } = 0;
+        public int Wheels { get; set; } = 0;
 
         public void Drive()
         {
             Console.WriteLine("The jetski zips through the waves with the greatest of ease");
         }
 
-        public void Fly()
-        {
-            throw new NotImplementedException();
-        }
-
         public void Start()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("The jetskiing is starting");
         }
 
         public void Stop()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Jetski is stopping");
         }
     }
 }
